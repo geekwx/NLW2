@@ -6,15 +6,15 @@ function TeacherItem(){
     return(
         <article className="teacher-item">
                     <header>
-                        <img src="https://avatars.githubusercontent.com/u/22477715?s=200&v=4" alt="Link"/>
+                        <img src="https://cdn.bulbagarden.net/upload/thumb/b/b8/025Pikachu_LG.png/600px-025Pikachu_LG.png" alt="Pikachu"/>
                         <div>
-                           <strong>Link</strong> 
+                           <strong>Pikachu</strong> 
                            <span> Quimica</span>
                         </div>
                     </header>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec aliquet elit.<br/><br/>
-                    Aenean tempus elit dolor, vitae sollicitudin lorem tristique in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vitae elit sem. Mauris scelerisque lacinia odio et sollicitudin. Duis ornare tempus sem, non sodales tortor dictum id. Nam mattis lectus in efficitur molestie. 
+                    Cientista desde muito novo Dr. Pikachu esta aqui para te mostrar o amor de quimita<br/><br/>
+                    Utilizando desde quimica basica a avançada e punindo os indiciplados com o choque do trovão, venha aprender com esse professor especial. 
                     </p>
                     <footer>
                         <p>
