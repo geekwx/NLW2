@@ -47,3 +47,21 @@ o path acaba resolvendo o caminho na aplicação resolvendo problema de difença
 
 o knew para utilizad where de comparação utiliza o whereRaw -> ele é bem complexo no qual mostr uma tipagem meio sql de comparação
 
+
+## Mobile
+
+O typescript não reconhece  aimpoertação de imagem diretamente, no caso na veroa do mobile. 
+então para fazer ele aceitar .png sera necessario criar uma pasta dentro do **src/@types**
+
+> Dentro dela vc irar criar um arquivo chamado  **index.d.ts**
+e adicionar 
+
+
+
+```
+declare module '*.png';
+```
+
+
+ **useFonts** -> é utilizado para carregar, fazer download das fonts que sera utilizada no projeto. dependendo ele poderar servir como uma forma de controle entre o estado de loading qunad lançado na tela.
+
