@@ -7,7 +7,7 @@ import heartOutlineIcon from '../../assets/images/icons/heart-outline.png';
 import unfavoriteIcon from '../../assets/images/icons/unfavorite.png';
 import whatsappIcon from '../../assets/images/icons/whatsapp.png';
 
-function TeacertItem(){
+function TeacherItem(){
     return (
         <View  style={styles.container}>
             <View style={styles.profile} >
@@ -44,4 +44,4 @@ function TeacertItem(){
     );
 }
 
-export default TeacertItem;
+export default TeacherItem;

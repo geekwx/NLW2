@@ -44,7 +44,8 @@ const styles = StyleSheet.create({
     footer: {
         backgroundColor: '#fafafc',
         padding: 24,
-        alignItems: 'center'
+        alignItems: 'center',
+        marginTop: 24
     },
     price: {
         fontFamily: 'Poppins_400Regular',
@@ -68,7 +69,24 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         marginRight: 8
-    }
+    }, 
+    contactButton: {
+        backgroundColor: '#04d361',
+        flex:1,
+        height: 56,
+        borderRadius: 8,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginRight: 8,
+    },
+    contactButtonText: {
+        color: '#FFF',
+        fontFamily: 'Archivo_700Bold',
+        fontSize: 16,
+        marginLeft: 16
+    },
+
 
 
 })
